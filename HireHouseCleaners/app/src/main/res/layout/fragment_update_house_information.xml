@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateHouseInformationFragment">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="217dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Home Details"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="126dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Kitchen        :"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b" />
+
+    <TextView
+        android:id="@+id/g"
+        android:layout_width="126dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Floor Type  : "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/f" />
+
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="126dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Koridow       :"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="126dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:text="Rooms         :   "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="126dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Bathrooms  :"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a" />
+
+    <TextView
+        android:id="@+id/f"
+        android:layout_width="126dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Garage         :"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/e" />
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="126dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Main Floor   :"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c" />
+
+    <EditText
+        android:id="@+id/num_rooms"
+        android:layout_width="221dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/a"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
+
+    <EditText
+        android:id="@+id/num_bathrooms"
+        android:layout_width="221dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/b"
+        app:layout_constraintTop_toBottomOf="@+id/num_rooms" />
+
+    <EditText
+        android:id="@+id/num_of_kitchens"
+        android:layout_width="221dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/c"
+        app:layout_constraintTop_toBottomOf="@+id/num_bathrooms" />
+
+    <EditText
+        android:id="@+id/num_main_floor"
+        android:layout_width="221dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/d"
+        app:layout_constraintTop_toBottomOf="@+id/num_of_kitchens" />
+
+    <EditText
+        android:id="@+id/num_of_koridows"
+        android:layout_width="221dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/e"
+        app:layout_constraintTop_toBottomOf="@+id/num_main_floor" />
+
+    <EditText
+        android:id="@+id/num_of_garages"
+        android:layout_width="221dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/f"
+        app:layout_constraintTop_toBottomOf="@+id/num_of_koridows" />
+
+    <EditText
+        android:id="@+id/floor_type"
+        android:layout_width="221dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/g"
+        app:layout_constraintTop_toBottomOf="@+id/num_of_garages" />
+
+    <Button
+        android:id="@+id/update_home_details_button"
+        android:layout_width="334dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="39dp"
+        android:text="Update Details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floor_type" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

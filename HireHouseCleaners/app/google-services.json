@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "948621440743",
+    "project_id": "hirehousecleaners-683f6",
+    "storage_bucket": "hirehousecleaners-683f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948621440743:android:845300af302f016dce9442",
+        "android_client_info": {
+          "package_name": "com.example.hirehousecleaners"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948621440743-07r1fnv945sdburpomqkfcfe40fuckuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ8G8GoZZydZduQ8sEONb6DvFgmna87Ts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948621440743-07r1fnv945sdburpomqkfcfe40fuckuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

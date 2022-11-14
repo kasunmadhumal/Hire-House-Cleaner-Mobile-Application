@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HireHouseCleaners</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Login Fragment</string>
+    <string name="second_fragment_label">Signup Fragment</string>
+    <string name="admin_fragment_label">Admin Home Fragment</string>
+    <string name="custormer_home_fragment_label">Customer Home Fragment</string>
+    <string name="house_details_update_fragment_label">House Details Update</string>
+    <string name="upload_image_fragment_label">Upload Images</string>
+    <string name="cleanre_home_fragment_label">Cleaner Home Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

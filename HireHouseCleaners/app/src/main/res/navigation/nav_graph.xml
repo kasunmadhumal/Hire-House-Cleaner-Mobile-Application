@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LoginFragment">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.example.hirehousecleaners.LoginFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+
+        <action
+            android:id="@+id/action_LoginFragment_to_SignupFragment"
+            app:destination="@id/SignupFragment" />
+        <action
+            android:id="@+id/action_LoginFragment_to_CustomerHomeScreenFragment"
+            app:destination="@id/CustomerHomeScreenFragment" />
+        <action
+            android:id="@+id/action_LoginFragment_to_AdminHomePageFragment"
+            app:destination="@id/AdminHomePageFragment" />
+        <action
+            android:id="@+id/action_LoginFragment_to_CleanerHomePageFragment"
+            app:destination="@id/CleanerHomePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SignupFragment"
+        android:name="com.example.hirehousecleaners.SignupFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SignupFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AdminHomePageFragment"
+        android:name="com.example.hirehousecleaners.AdminHomePageFragment"
+        android:label="@string/admin_fragment_label"
+        tools:layout="@layout/fragment_admin_home_page">
+
+
+        <action
+            android:id="@+id/action_AdminHomePageFragment_to_AddPaymentFragment"
+            app:destination="@id/AddPaymentFragment" />
+        <action
+            android:id="@+id/action_AdminHomePageFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+        <action
+            android:id="@+id/action_AdminHomePageFragment_to_AddFeedBackFragment"
+            app:destination="@id/AddFeedBackFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CustomerHomeScreenFragment"
+        android:name="com.example.hirehousecleaners.CustomerHomeScreenFragment"
+        android:label="@string/custormer_home_fragment_label"
+        tools:layout="@layout/fragment_customer_home_screen">
+
+
+        <action
+            android:id="@+id/action_CustomerHomeScreenFragment_to_UpdateHouseInformationFragment"
+            app:destination="@id/UpdateHouseInformationFragment" />
+        <action
+            android:id="@+id/action_CustomerHomeScreenFragment_to_UploadImagesFragment"
+            app:destination="@id/UploadImagesFragment" />
+        <action
+            android:id="@+id/action_CustomerHomeScreenFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+        <action
+            android:id="@+id/action_CustomerHomeScreenFragment_to_AddFeedBackFragment"
+            app:destination="@id/AddFeedBackFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/UpdateHouseInformationFragment"
+        android:name="com.example.hirehousecleaners.UpdateHouseInformationFragment"
+        android:label="@string/house_details_update_fragment_label"
+        tools:layout="@layout/fragment_update_house_information">
+
+
+        <action
+            android:id="@+id/action_UpdateHouseInformationFragment_to_CustomerHomeScreenFragment"
+            app:destination="@id/CustomerHomeScreenFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CleanerHomePageFragment"
+        android:name="com.example.hirehousecleaners.CleanerHomePageFragment"
+        android:label="@string/cleanre_home_fragment_label"
+        tools:layout="@layout/fragment_clearner_home_page">
+
+
+        <action
+            android:id="@+id/action_CleanerHomePageFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+        <action
+            android:id="@+id/action_CleanerHomePageFragment_to_AddPaymentFragment"
+            app:destination="@id/AddPaymentFragment" />
+        <action
+            android:id="@+id/action_CleanerHomePageFragment_to_AddFeedBackFragment"
+            app:destination="@id/AddFeedBackFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/UploadImagesFragment"
+        android:name="com.example.hirehousecleaners.UploadImagesFragment"
+        android:label="@string/upload_image_fragment_label"
+        tools:layout="@layout/fragment_upload_images">
+
+
+        <action
+            android:id="@+id/action_UploadImagesFragment_to_CustomerHomeScreenFragment"
+            app:destination="@id/CustomerHomeScreenFragment" />
+        <action
+            android:id="@+id/action_UploadImagesFragment_to_ItemsFragment"
+            app:destination="@id/ItemsFragment" />
+        <action
+            android:id="@+id/action_UploadImagesFragment_to_AddNewImageFragment"
+            app:destination="@id/AddNewImageFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/AddNewImageFragment"
+        android:name="com.example.hirehousecleaners.AddNewImageFragment"
+        android:label="Add New Image"
+        tools:layout="@layout/fragment_add_new_image">
+        <action
+            android:id="@+id/action_AddNewImageFragment_to_UploadImagesFragment"
+            app:destination="@id/UploadImagesFragment" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/ItemsFragment"
+        android:name="com.example.hirehousecleaners.ItemsFragment"
+        android:label="Images List"
+        tools:layout="@layout/fragment_items">
+        <action
+            android:id="@+id/action_ItemsFragment_to_UploadImagesFragment"
+            app:destination="@id/UploadImagesFragment" />
+        <action
+            android:id="@+id/action_ItemsFragment_to_ImageDetailsFragment"
+            app:destination="@id/ImageDetailsFragment" />
+        <action
+            android:id="@+id/action_ItemsFragment_to_AddPaymentFragment"
+            app:destination="@id/AddPaymentFragment" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/ImageDetailsFragment"
+        android:name="com.example.hirehousecleaners.ImageDetailsFragment"
+        android:label="Images Details"
+        tools:layout="@layout/fragment_image_details">
+        <action
+            android:id="@+id/action_ImageDetailsFragment_to_ItemsFragment"
+            app:destination="@id/ItemsFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/AddPaymentFragment"
+        android:name="com.example.hirehousecleaners.AddPaymentFragment"
+        android:label="Add Payment"
+        tools:layout="@layout/fragment_add_payment">
+        <action
+            android:id="@+id/action_AddPaymentFragment_to_AdminHomePageFragment"
+            app:destination="@id/AdminHomePageFragment" />
+        <action
+            android:id="@+id/action_AddPaymentFragment_to_ItemsFragment"
+            app:destination="@id/ItemsFragment" />
+        <action
+            android:id="@+id/action_AddPaymentFragment_to_AddFeedBackFragment"
+            app:destination="@id/AddFeedBackFragment" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/AddFeedBackFragment"
+        android:name="com.example.hirehousecleaners.AddFeedBackFragment"
+        android:label="Add Feedback"
+        tools:layout="@layout/fragment_add_feed_back">
+
+        <action
+            android:id="@+id/action_AddFeedBackFragment_to_CleanerHomePageFragment"
+            app:destination="@id/CleanerHomePageFragment" />
+        <action
+            android:id="@+id/action_AddFeedBackFragment_to_AdminHomePageFragment"
+            app:destination="@id/AdminHomePageFragment" />
+        <action
+            android:id="@+id/action_AddFeedBackFragment_to_CustomerHomeScreenFragment"
+            app:destination="@id/CustomerHomeScreenFragment" />
+        <action
+            android:id="@+id/action_AddFeedBackFragment_to_AddPaymentFragment"
+            app:destination="@id/AddPaymentFragment" />
+    </fragment>
+
+</navigation>
