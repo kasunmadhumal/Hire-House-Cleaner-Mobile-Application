@@ -4,11 +4,11 @@
 ### We still need to schedule appointments with people to fix issues that relate to our everyday lives, such as house cleaning, and mechanical, electrical, and electrical problems, as well as plumbing-related issues.
 It is not certain that we will have the appointment of the service provider at the time because numerous issues might arise, such as the service provider being busy someplace else or not being present at his office when we arrive there, or demanding a high cost to solve the problem, etc.
 The limitations of the existing system must be identified before the introduction of a new system.
-    * The existing system is offline.
-    * Complicated record management.
-    * There is no time limit for service to be provided.
-    * No service guarantees.
-    * Difficult to find a proper service provider.
+    - The existing system is offline.
+    - Complicated record management.
+    - There is no time limit for service to be provided.
+    - No service guarantees.
+    - Difficult to find a proper service provider.
 
 ### We will create an Android application where users may receive the right results to solve this kind of issue.
 This Android application is straightforward and dynamic. Anyone can easily use the Android application's interface because it is so simple.
@@ -16,9 +16,9 @@ This Android application is straightforward and dynamic. Anyone can easily use t
 
 ## Users
 ### HireHouseCleaners apps consist of three users:
-    * Admin user
-    * House cleaner
-    * Customer
+    - Admin user
+    - House cleaner
+    - Customer
     
  ### Below are the characteristics of each user.
  
@@ -60,7 +60,7 @@ We have conducted the following testing to identify the system errors:
 Screen Shots of the Application
 Main Interfaces
 
-Log In								Sign Up
+Log In							                                                               	Sign Up
 
 ![image](https://user-images.githubusercontent.com/73273550/201736026-45f7ff4d-c075-42ae-958f-b0ad6342140f.png)    ![image](https://user-images.githubusercontent.com/73273550/201736067-46aedde1-0b4a-42c2-9a0d-dae0e9ecfb14.png)
 
@@ -68,7 +68,7 @@ Log In								Sign Up
 
 
 
-Customer Home Page						Update House Details
+Customer Home Page				                                                          		Update House Details
 
 ![image](https://user-images.githubusercontent.com/73273550/201736448-36409a9e-ed45-4ef2-b5a6-00972a356bd4.png)    ![image](https://user-images.githubusercontent.com/73273550/201736513-9644fda0-0cb1-4c58-8dbd-863ae53e2398.png)
 
