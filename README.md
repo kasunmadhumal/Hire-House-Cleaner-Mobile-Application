@@ -59,7 +59,7 @@ We have conducted the following testing to identify the system errors:
 Screen Shots of the Application
 Main Interfaces
 
-Log In &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Sign Up
+Log In &nbsp &nbsp  Sign Up
 
 ![image](https://user-images.githubusercontent.com/73273550/201736026-45f7ff4d-c075-42ae-958f-b0ad6342140f.png)    ![image](https://user-images.githubusercontent.com/73273550/201736067-46aedde1-0b4a-42c2-9a0d-dae0e9ecfb14.png)
 
