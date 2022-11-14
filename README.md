@@ -59,7 +59,7 @@ We have conducted the following testing to identify the system errors:
 Screen Shots of the Application
 Main Interfaces
 
-Log In $~~~~~~~~~~~$           Sign Up
+Log In and Sign Up
 
 ![image](https://user-images.githubusercontent.com/73273550/201736026-45f7ff4d-c075-42ae-958f-b0ad6342140f.png)    ![image](https://user-images.githubusercontent.com/73273550/201736067-46aedde1-0b4a-42c2-9a0d-dae0e9ecfb14.png)
 
@@ -67,7 +67,7 @@ Log In $~~~~~~~~~~~$           Sign Up
 
 
 
-Customer Home Page				                                                          		Update House Details
+Customer Home Page	and 			                                                          		Update House Details
 
 ![image](https://user-images.githubusercontent.com/73273550/201736448-36409a9e-ed45-4ef2-b5a6-00972a356bd4.png)    ![image](https://user-images.githubusercontent.com/73273550/201736513-9644fda0-0cb1-4c58-8dbd-863ae53e2398.png)
 
@@ -75,14 +75,14 @@ Customer Home Page				                                                          
 
 
 
-Add Home Images	                  View Home Images
+Add Home Images	 and                  View Home Images
 
 
 ![image](https://user-images.githubusercontent.com/73273550/201736586-5ac43174-480c-4553-b2e3-e3bbf0b002ee.png)    ![image](https://user-images.githubusercontent.com/73273550/201736615-084d1c7e-7441-4d07-8a7e-cd298d20491c.png)
 
 
 
-Admin Home Page	                   Add Payment by Admin
+Admin Home Page	   and                 Add Payment by Admin
 
 ![image](https://user-images.githubusercontent.com/73273550/201736704-2d5fe7d0-6819-4974-867c-54a6cbe4f338.png)     ![image](https://user-images.githubusercontent.com/73273550/201736747-eba5f89b-07ba-4c5e-8ee4-ad4d2367b5b8.png)
 
@@ -90,7 +90,7 @@ Admin Home Page	                   Add Payment by Admin
 
 
 
-House Cleaner Users’ Home Page	After Accept a order
+House Cleaner Users’ Home Page	and After Accept a order
 
 ![image](https://user-images.githubusercontent.com/73273550/201736825-653e99e2-2c6c-4430-949b-d8d2f262566c.png)      ![image](https://user-images.githubusercontent.com/73273550/201736850-27111d55-f4a1-4b66-b46e-5834e051bbdd.png)
 
@@ -129,19 +129,19 @@ Customer Home Images in Storage
 
 
 ## Test Cases(User data validation)
-Log In Without Passwords	                 Incorrect Password
+Log In Without Passwords	         and         Incorrect Password
 
 ![image](https://user-images.githubusercontent.com/73273550/201737262-b9db9269-e60b-4395-b285-f9a5833c6f56.png)    ![image](https://user-images.githubusercontent.com/73273550/201737298-47790ba0-cedb-4b0a-862e-b84fab3ae9dd.png)
 
 
 
 
-Leaving empty Fields	Select User Role
+Leaving empty Fields	and Select User Role
 
 ![image](https://user-images.githubusercontent.com/73273550/201737343-78822045-bf02-4ae6-bd79-cb466f1de7fe.png)     ![image](https://user-images.githubusercontent.com/73273550/201737372-ea5d7ef6-bc5f-47e0-a1dc-a5cde5c9af6b.png)
 
 
-Passwords Don’t Match	                     Order Send Test
+Passwords Don’t Match	       and               Order Send Test
 
 
 ![image](https://user-images.githubusercontent.com/73273550/201737416-a65d67f9-3fec-4908-9adb-d2858da7451c.png)      ![image](https://user-images.githubusercontent.com/73273550/201737428-ec01f8ec-d487-4886-b19d-c356bd5bf920.png)
